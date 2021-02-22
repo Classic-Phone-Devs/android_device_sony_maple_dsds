@@ -9,11 +9,12 @@ $(call inherit-product, device/sony/maple_dsds/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 ### BOOTANIMATION
-# vendor/lineage/config/common_full_phone.mk
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
-# vendor/lineage/config/common.mk
-TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_BOOT_ANIMATION_RES := 1080
+
+### UPDATABLE APEX FOR GMS OVERRIDE
+TARGET_FLATTEN_APEX := false
 
 ### EVOLUTION
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
