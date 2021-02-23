@@ -1317,3 +1317,6 @@ vendor/lib/libwfdmmservice.so|ae4e690dfda60111d3cd61259ccf13a9c562beb2
 vendor/lib/libwfdmodulehdcpsession.so|85c76302658c3bbd9c35ea4d4b2e6ffba08b770e
 vendor/lib64/libmmosal_proprietary.so|3908070b1756cce4b519bc30ebe02f2af211efc7
 vendor/lib64/libwfdhdcpcp.so|03c05652a41db0709effacc6d8cea627fb2492f4
+
+vendor/lib64/liboemcrypto.so
+vendor/lib/liboemcrypto.so
