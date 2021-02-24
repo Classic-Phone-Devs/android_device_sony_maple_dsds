@@ -3,10 +3,6 @@ $(call inherit-product, device/sony/yoshino-common/platform.mk)
 ### PROPRIETARY VENDOR FILES
 $(call inherit-product, vendor/sony/maple_dsds/maple_dsds-vendor.mk)
 
-ifeq ($(WITH_FDROID),true)
-$(call inherit-product, vendor/fdroid/fdroid-vendor.mk)
-endif
-
 ### DALVIK
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
