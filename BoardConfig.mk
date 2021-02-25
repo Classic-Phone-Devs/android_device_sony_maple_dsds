@@ -19,6 +19,10 @@ include vendor/sony/maple_dsds/BoardConfigVendor.mk
 
 DEVICE_PATH := device/sony/maple_dsds
 
+### EVOLUTION BRANDING
+EVO_MAINTAINER := Alcatraz(Decontamination@Coolapk)
+EVO_DONATE_URL := https://github.com/Alcatraz323
+
 PRODUCT_PLATFORM := yoshino
 
 ### BOOTLOADER
