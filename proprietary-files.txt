@@ -568,10 +568,6 @@ lib64/libwfdnative.so|aeb793285dd721611039d5f3ffbe9b85c79b1da4
 
 # GoogleExtensions
 -product/app/GoogleCamera/GoogleCamera.apk
-lib64/libfacenet.so
-lib64/libfilterpack_facedetect.so
-lib64/libfrsdk.so
--app/FaceLock/FaceLock.apk
 
 # Sony Stock Parts
 -product/app/com.sonymobile.support/com.sonymobile.support.apk
