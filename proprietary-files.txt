@@ -570,9 +570,9 @@ lib64/libwfdnative.so|aeb793285dd721611039d5f3ffbe9b85c79b1da4
 -product/app/GoogleCamera/GoogleCamera.apk
 
 # Sony Stock Parts
--product/app/com.sonymobile.support/com.sonymobile.support.apk
--product/app/Lifelog-googlePlayLiveRelease-4.0.A.0.14-8388622/Lifelog-googlePlayLiveRelease-4.0.A.0.14-8388622.apk
--product/app/SomcMovieCreatorRmm-release/SomcMovieCreatorRmm-release.apk
--product/app/SomcSketch-Live-8.3.B.0.13/SomcSketch-Live-8.3.B.0.13.apk
--product/priv-app/SemcPhotoEditor/SemcPhotoEditor.apk
--product/priv-app/SemcMusic/SemcMusic.apk
+-app/com.sonymobile.support/com.sonymobile.support.apk
+-app/Lifelog-googlePlayLiveRelease-4.0.A.0.14-8388622/Lifelog-googlePlayLiveRelease-4.0.A.0.14-8388622.apk
+-app/SomcMovieCreatorRmm-release/SomcMovieCreatorRmm-release.apk
+-app/SomcSketch-Live-8.3.B.0.13/SomcSketch-Live-8.3.B.0.13.apk
+-priv-app/SemcPhotoEditor/SemcPhotoEditor.apk
+-priv-app/SemcMusic/SemcMusic.apk
