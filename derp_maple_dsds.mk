@@ -16,11 +16,11 @@ TARGET_BOOT_ANIMATION_RES := 1080
 ### UPDATABLE APEX FOR GMS OVERRIDE
 TARGET_FLATTEN_APEX := false
 
-### EVOLUTION
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+### DERPFEST
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := evolution_maple_dsds
+PRODUCT_NAME := derp_maple_dsds
 PRODUCT_DEVICE := maple_dsds
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := G8142

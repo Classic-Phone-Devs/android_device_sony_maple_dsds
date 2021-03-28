@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_maple_dsds.mk
+    $(LOCAL_DIR)/derp_maple_dsds.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_maple_dsds-user \
-    evolution_maple_dsds-userdebug \
-    evolution_maple_dsds-eng
+    derp_maple_dsds-user \
+    derp_maple_dsds-userdebug \
+    derp_maple_dsds-eng
