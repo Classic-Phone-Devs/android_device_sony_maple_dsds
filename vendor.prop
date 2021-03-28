@@ -1,1 +1,2 @@
 persist.vendor.radio.block_allow_data=0
+ro.vendor.extension_library=libqti-perfd-client.so
