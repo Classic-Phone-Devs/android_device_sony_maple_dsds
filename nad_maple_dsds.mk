@@ -17,10 +17,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FLATTEN_APEX := false
 
 ### EVOLUTION
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := evolution_maple_dsds
+PRODUCT_NAME := nad_maple_dsds
 PRODUCT_DEVICE := maple_dsds
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := G8142
