@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The LineageOS Open Source Project
+# Copyright (C) 2017 The evolutionOS Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_maple_dsds.mk
+    $(LOCAL_DIR)/evolution_maple_dsds.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_maple_dsds-user \
-    lineage_maple_dsds-userdebug \
-    lineage_maple_dsds-eng
+    evolution_maple_dsds-user \
+    evolution_maple_dsds-userdebug \
+    evolution_maple_dsds-eng

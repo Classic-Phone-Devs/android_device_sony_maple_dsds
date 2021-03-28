@@ -9,17 +9,26 @@ $(call inherit-product, device/sony/maple_dsds/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 ### BOOTANIMATION
-# vendor/lineage/config/common_full_phone.mk
+# vendor/evolution/config/common_full_phone.mk
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
-# vendor/lineage/config/common.mk
+# vendor/evolution/config/common.mk
 TARGET_BOOTANIMATION_HALF_RES := true
 
-### LINEAGE
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+### evolution
+CUSTOM_BUILD_TYPE := UNOFFICIAL
+EVO_DONATE_URL := NONEED
+EVO_MAINTAINER := Sharakovia@reallyshow
+EVO_SUPPORT_URL := https://github.com/sharakovia
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCREMENTAL_BLOCK_BASED := true
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_maple_dsds
+PRODUCT_NAME := evolution_maple_dsds
 PRODUCT_DEVICE := maple_dsds
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := G8142
