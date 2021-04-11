@@ -1,2 +1,4 @@
 persist.vendor.radio.block_allow_data=0
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
